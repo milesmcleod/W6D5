@@ -1,0 +1,60 @@
+/* PHASE 12: Modal */
+.modal {
+
+  
+  
+  /*display: none;*/
+}
+
+.sign-in-form{
+  position: relative;
+}
+
+.modal-screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.x-button {
+  /*position: fixed;*/
+  font-size: 36px;
+  float: right;
+  
+  
+  
+}
+
+.x-button:hover{
+  color: red;
+}
+
+.modal-form {
+  position: absolute;
+  background: white;
+  /*height:100px;*/
+  left: 50%;
+  margin-left: -220px;
+  width: 360px;
+  z-index: 3;
+  top: 150px;
+  /*margin: 100px auto;*/
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.modal-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
+
+.is-open {
+  display: block;
+}

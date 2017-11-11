@@ -1,0 +1,80 @@
+.time-widget {
+  font-family: 'Vollkorn SC', serif;
+  font-size: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffdead;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flex-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.time-widget h3 {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.time-numbers {
+  flex: 1;
+}
+
+.tabs {
+  font-family: 'Vollkorn SC', serif;
+  font-size: 30px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  background-color: #2e8b57;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 50px 15px;
+  position: relative;
+}
+
+.tab-titles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  position: absolute;
+  top: -46px;
+  left: -2px;
+}
+
+.tab-titles li {
+  flex: 1;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #2e8b57;
+}
+
+.tab article {
+  width: 100%;
+}
+
+.selected {
+  font-weight: 700;
+  border: 2px solid black;
+  border-bottom: 0;
+}
+
+.not-selected {
+  color: blue;
+  border: 2px solid black;
+  border-bottom: 2px solid black;
+}

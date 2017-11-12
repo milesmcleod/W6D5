@@ -1,12 +1,24 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background: url(http://magazine.viterbi.usc.edu/wp-content/uploads/BSP_054.jpg);
+}
+
 .time-widget {
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Orbitron';
   font-size: 50px;
   border: 2px solid black;
   display: flex;
   justify-content: space-between;
   background-color: #ffdead;
-  float: right;
-  width: 40%;
+  width: auto;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -29,15 +41,14 @@
 }
 
 .tabs {
-  font-family: 'Vollkorn SC', serif;
+  font-family: 'Orbitron';
   font-size: 30px;
   border: 2px solid black;
   display: flex;
   flex-direction: column;
   /*justify-content: space-between;*/
-  background-color: #2e8b57;
-  float: left;
-  width: 40%;
+  background-color: aquamarine;
+  width: auto;
   padding: 10px;
   box-sizing: border-box;
   margin: 50px 15px;
@@ -45,14 +56,17 @@
 }
 
 .tab-titles {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   list-style: none;
   margin: 0 auto;
   padding-left: 0;
+  padding-top: 10px;
   position: absolute;
   top: -46px;
   left: -2px;
+  height: 46px;
 }
 
 .tab-titles li {
@@ -60,7 +74,7 @@
   text-align: center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-color: #2e8b57;
+  background-color: aquamarine;
 }
 
 .tab article {
@@ -77,4 +91,19 @@
   color: blue;
   border: 2px solid black;
   border-bottom: 2px solid black;
+}
+
+.weather-widget {
+  margin-top: 30px;
+  font-family: 'Orbitron';
+  font-size: 30px;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: red;
+  width: auto;
+  padding: 10px;
+  box-sizing: border-box;
 }

@@ -29,7 +29,7 @@ class Clock extends React.Component{
           <h3>DATE: </h3>
         </div>
 
-      <br/>
+        <br/>
         <div className="flex-div">
           <div className = 'time-numbers'>
             <span>{hours}:</span>

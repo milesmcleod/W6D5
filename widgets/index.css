@@ -101,9 +101,42 @@
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: red;
   width: auto;
   padding: 10px;
   box-sizing: border-box;
+}
+
+.weather-widget p {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.auto-complete {
+  margin-top: 30px;
+  font-family: 'Orbitron';
+  font-size: 30px;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: purple;
+  width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.auto-complete ul {
+  list-style: square;
+}
+
+.auto-complete input {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  font-size: 24px;
+  color: black;
+  font-family: 'Orbitron';
 }
